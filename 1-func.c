@@ -12,7 +12,7 @@ stack_t *stack_init(void)
 	new = malloc(sizeof(stack_t));
 	if (!new)
 	{
-		fprint(stderr, "Error: malloc failed\n");
+		fprintf(stderr, "Error: malloc failed\n");
 		exit(EXIT_FAILURE);
 	}
 
