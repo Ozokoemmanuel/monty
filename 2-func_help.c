@@ -59,3 +59,4 @@ int stack_size(stack_t *stack)
 		temp = temp->next;
 	}
 	return (i);
+}
